@@ -1,0 +1,16 @@
+.intro__list {
+    list-style-type: none;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 375px) {
+    .intro__list {
+        font-size: 12px;
+        line-height: 19px;
+    }
+}
+

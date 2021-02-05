@@ -1,0 +1,65 @@
+.cover__link {
+box-sizing: border-box;
+text-decoration: none;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+position: relative;
+z-index: 1;
+background-image: url(../../../images/cover.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+max-width: 1184px;
+width: 100%;
+min-height: 740px;
+}
+
+@media (max-width: 1024px) {
+    .cover__link {
+        min-height: 640px;
+    }
+}
+
+@media (max-width: 920px) {
+    .cover__link {
+        min-height: 575px;
+    }
+}
+
+@media (max-width: 800px) {
+    .cover__link {
+        min-height: 500px;
+    }
+}
+
+@media (max-width: 728px) {
+    .cover__link {
+        min-height: 480px;
+    }
+}
+
+@media (max-width: 600px) {
+    .cover__link {
+        min-height: 375px;
+    }
+}
+
+@media (max-width: 480px) {
+    .cover__link {
+        min-height: 300px;
+    }
+}
+
+@media (max-width: 400px) {
+    .cover__link {
+        min-height: 250px;
+    }
+}
+
+@media (max-width: 320px) {
+    .cover__link {
+        min-height: 200px;
+    }
+}
