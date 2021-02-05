@@ -22,7 +22,6 @@
 
 body {
   margin: 0;
-  padding: 0;
 }
 
 /**
@@ -40,24 +39,9 @@ main {
 
 h1 {
   font-size: 2em;
-  margin: 0;
-  padding: 0;
+  margin: 0.67em 0;
 }
 
-h2 {
-  margin: 0;
-  padding: 0;
-}
-
-p {
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  margin: 0;
-  padding: 0;
-}
 /* Grouping content
    ========================================================================== */
 
