@@ -16,6 +16,19 @@ width: 100%;
 min-height: 740px;
 }
 
+.cover__link::before {
+    content: '';
+    width: 100%;
+    max-width: 1184px;
+    min-height: 740px;
+    background-color: #2A2C2F;
+    opacity: 0.3;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+}
+
 @media (max-width: 1024px) {
     .cover__link {
         min-height: 640px;
